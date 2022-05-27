@@ -13,6 +13,7 @@
 button {
     color: #F9FAF8;
     background-color: #3882F6;
+    font-weight: 700;
 }
 
 .first-section img {
@@ -32,7 +33,44 @@ a, .header .para {
     color: #E5E7EB;
 }
 
-.first-section, .facts .para,
+.first-section, .first-section .para,
 .second-section {
     color: #1F2937;
 }
+
+.header-logo, .para-header,
+.section-header, .facts-header,
+.author {
+    font-weight: 800;
+}
+
+.header-logo {
+    font-size: 24px;
+}
+
+.para-header {
+    font-size: 48px;
+}
+
+a, .header .para {
+    font-size: 18px;
+}
+
+.section-header, .quote {
+    font-size: 36px;
+}
+
+.facts-header {
+    font-size: 22px;
+}
+
+.quote {
+    font-weight: 100;
+    font-style: italic;
+}
+
+html {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+
