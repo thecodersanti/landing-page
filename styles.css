@@ -1,0 +1,38 @@
+.header, .footer {
+    background-color: #1F2937;
+}
+
+.second-section {
+    background-color: #E5E7EB;
+}
+
+.third-section {
+    background-color: #3882F6;
+}
+
+button {
+    color: #F9FAF8;
+    background-color: #3882F6;
+}
+
+.first-section img {
+    border: 5px solid #3882F6;
+}
+
+.button-two {
+    border-color: #F9FAF8;
+}
+
+.header-logo, .para-header,
+.third-section, .footer {
+    color: #F9FAF8;
+}
+
+a, .header .para {
+    color: #E5E7EB;
+}
+
+.first-section, .facts .para,
+.second-section {
+    color: #1F2937;
+}
