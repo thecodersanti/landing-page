@@ -55,7 +55,7 @@ a, .header .para {
 
 .header-logo, .para-header,
 .section-header, .facts-header,
-.author {
+.author, .header_3 {
     font-weight: 800;
 }
 
