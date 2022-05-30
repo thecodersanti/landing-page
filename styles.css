@@ -4,6 +4,12 @@
 
 .second-section {
     background-color: #E5E7EB;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 50px 100px;
+
 }
 
 .third-section {
@@ -126,4 +132,8 @@ ol {
 
 ol li {
     max-width: 400px;
+}
+
+.author {
+    margin-left: 400px;
 }
