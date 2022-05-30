@@ -19,6 +19,8 @@ button {
 .first-section img {
     border: 5px solid #3882F6;
     border-radius: 20px;
+    width: 200px;
+    height: auto;
 }
 
 .button-two {
@@ -104,4 +106,24 @@ body {
 .bottom-header {
     display: flex;
     padding: 100px 200px;
+}
+
+.section-header {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    margin: 32px;
+}
+
+ol {
+    display: flex;
+    margin: 0;
+    padding: 0;
+    gap: 52px;
+    text-align: center;
+    justify-content: center;
+}
+
+ol li {
+    max-width: 400px;
 }
