@@ -99,7 +99,7 @@ ul {
     gap: 20px;
 }
 
-button {
+button, .third-section {
     border-radius: 5px;
 }
 
