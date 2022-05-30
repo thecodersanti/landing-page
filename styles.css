@@ -90,3 +90,18 @@ button {
     border-radius: 5px;
 }
 
+body {
+    margin: 0;
+}
+
+.top-header {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 200px;
+    align-items: center;
+}
+
+.bottom-header {
+    display: flex;
+    padding: 100px 200px;
+}
