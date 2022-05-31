@@ -11,8 +11,40 @@ body {
         #ea9926 50%,
         #ea9926 100%
     );
+    font-family: Verdana, sans-serif;
 }
 
 .title {
     color: white;
+    font-weight: 700;
+}
+
+.top .title {
+    font-size: 48px;
+    font-weight: 900;
+}
+
+.movie div,
+.egg .para,
+.item .para {
+    font-size: 18px;
+}
+
+.easter .title,
+.mistake .title {
+    font-size: 36px;
+}
+
+.egg .title,
+.item .title,
+.next {
+    font-size: 24px;
+}
+
+.footer a {
+    font-size: 20px;
+}
+
+.copyright {
+    font-weight: 700;
 }
