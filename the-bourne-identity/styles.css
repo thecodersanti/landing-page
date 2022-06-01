@@ -49,6 +49,7 @@ body {
 
 .copyright {
     font-weight: 700;
+    margin-top: 15px;
 }
 
 a {
@@ -110,4 +111,20 @@ ol {
     display: flex;
     flex-direction: column;
     align-items: center;
+}
+
+.next {
+    display: flex;
+    margin-bottom: 30px;
+}
+
+.left, .right {
+    flex: 1;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.right {
+    justify-content: flex-start;
+    margin-left: 5px;
 }
