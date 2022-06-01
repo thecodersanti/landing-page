@@ -27,7 +27,7 @@ body {
 
 .movie div,
 .egg .para,
-.item .para {
+ol .para {
     font-size: 18px;
 }
 
@@ -38,12 +38,12 @@ body {
 }
 
 .egg .title,
-.item .title,
+ol .title,
 .next {
     font-size: 24px;
 }
 
-.footer a {
+.footer {
     font-size: 20px;
 }
 
@@ -86,7 +86,7 @@ ol .para {
 }
 
 .egg .title,
-.item .title {
+ol .title {
     margin-bottom: 5px;
 }
 
@@ -99,19 +99,17 @@ ol .para {
     margin-bottom: 20px;
 }
 
-.content .egg,
-.content .item {
+.egg, ol {
     flex: 1;
+    display: flex;
 }
 
 ol {
-    display: flex;
     justify-content: center;
     gap: 20px;
 }
 
 .egg {
-    display: flex;
     flex-direction: column;
     align-items: center;
 }
