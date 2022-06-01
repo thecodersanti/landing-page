@@ -64,3 +64,8 @@ a {
 .movie {
     max-width: 400px;
 }
+
+.middle img {
+    width: 300px;
+    height: auto;
+}
