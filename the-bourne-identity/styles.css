@@ -107,6 +107,7 @@ ol .para {
 ol {
     display: flex;
     justify-content: center;
+    gap: 20px;
 }
 
 .egg {
