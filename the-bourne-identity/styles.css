@@ -12,6 +12,7 @@ body {
         #ea9926 100%
     );
     font-family: Verdana, sans-serif;
+    text-align: center;
 }
 
 .title {
@@ -22,6 +23,7 @@ body {
 .top .title {
     font-size: 48px;
     font-weight: 900;
+    margin-bottom: 32px;
 }
 
 .movie div,
@@ -51,4 +53,14 @@ body {
 
 a {
     color: black;
+}
+
+.top {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.movie {
+    max-width: 400px;
 }
