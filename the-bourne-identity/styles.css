@@ -70,7 +70,8 @@ a {
     max-width: 400px;
 }
 
-.egg img {
+.egg img,
+.movie img {
     width: 300px;
     height: auto;
 }
