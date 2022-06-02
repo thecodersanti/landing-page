@@ -24,6 +24,11 @@ body {
     font-size: 18px;
 }
 
+.movie .first,
+.content .para {
+    margin-top: 5px;
+}
+
 .header .title {
     font-size: 36px;
     margin-bottom: 24px;
