@@ -1,0 +1,127 @@
+* {
+    margin: 0;
+}
+
+body {
+    background: #003d59;
+    font-family: Verdana, sans-serif;
+    text-align: center;
+}
+
+.title {
+    color: white;
+    font-weight: 700;
+}
+
+.title#heading {
+    font-size: 48px;
+    font-weight: 900;
+    margin-bottom: 32px;
+}
+
+.movie div,
+.egg .para,
+ol .para {
+    font-size: 18px;
+}
+
+.header .title {
+    font-size: 36px;
+    margin-bottom: 24px;
+    flex: 1;
+}
+
+.egg .title,
+ol .title,
+.next {
+    font-size: 24px;
+}
+
+.footer {
+    font-size: 20px;
+}
+
+.copyright {
+    font-weight: 700;
+    margin-top: 15px;
+}
+
+a {
+    color: black;
+}
+
+.top {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 75px;
+}
+
+.movie {
+    max-width: 400px;
+}
+
+.egg img,
+.movie img {
+    width: 300px;
+    height: auto;
+}
+
+.egg .para {
+    width: 400px;
+}
+
+ol img {
+    width: 200px;
+    height: auto;
+}
+
+ol .para {
+    width: 300px;
+}
+
+.egg .title,
+ol .title {
+    margin-bottom: 10px;
+}
+
+.header {
+    display: flex;
+}
+
+.content {
+    display: flex;
+    margin-bottom: 50px;
+}
+
+.egg, ol {
+    flex: 1;
+    display: flex;
+}
+
+ol {
+    justify-content: center;
+    gap: 50px;
+}
+
+.egg {
+    flex-direction: column;
+    align-items: center;
+}
+
+.next {
+    display: flex;
+    margin-bottom: 30px;
+}
+
+.next .title,
+.next a {
+    flex: 1;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.next a {
+    justify-content: flex-start;
+    margin-left: 5px;
+}
