@@ -30,6 +30,11 @@ body {
     font-size: 18px;
 }
 
+.content .para,
+.movie .first {
+    margin-top: 5px;
+}
+
 .header .title {
     font-size: 36px;
     margin-bottom: 24px;
@@ -84,7 +89,7 @@ ol .para {
 }
 
 .content .title {
-    margin-bottom: 5px;
+    margin-bottom: 10px;
 }
 
 .header {
