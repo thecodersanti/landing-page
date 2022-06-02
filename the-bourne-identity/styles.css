@@ -19,7 +19,7 @@ body {
     font-weight: 700;
 }
 
-.top .title {
+.title#heading {
     font-size: 48px;
     font-weight: 900;
     margin-bottom: 32px;
