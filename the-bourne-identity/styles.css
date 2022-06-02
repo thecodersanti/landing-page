@@ -119,13 +119,14 @@ ol {
     margin-bottom: 30px;
 }
 
-.left, .right {
+.left,
+.next a {
     flex: 1;
     display: flex;
     justify-content: flex-end;
 }
 
-.right {
+.next a {
     justify-content: flex-start;
     margin-left: 5px;
 }
