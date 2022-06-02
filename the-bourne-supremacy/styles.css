@@ -3,13 +3,7 @@
 }
 
 body {
-    background: linear-gradient(
-        to right,
-        #056888 0%,
-        #056888 50.25%,
-        #ea9926 50.25%,
-        #ea9926 100%
-    );
+    background: #003d59;
     font-family: Verdana, sans-serif;
     text-align: center;
 }
