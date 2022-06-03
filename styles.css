@@ -38,7 +38,8 @@ button {
     border-color: #F9FAF8;
 }
 
-.header-logo, .para-header,
+.top-header .title,
+.bottom-header .title,
 .third-section, .footer {
     color: #F9FAF8;
 }
@@ -52,17 +53,15 @@ a, .header .para {
     color: #1F2937;
 }
 
-.header-logo, .para-header,
-.section-header, .facts-header,
-.author, .header_3 {
+.title {
     font-weight: 800;
 }
 
-.header-logo {
+.top-header .title {
     font-size: 24px;
 }
 
-.para-header {
+.bottom-header .title {
     font-size: 48px;
 }
 
@@ -70,11 +69,12 @@ a, .header .para {
     font-size: 18px;
 }
 
-.section-header, .quote {
+.first-section .title,
+.quote {
     font-size: 36px;
 }
 
-.facts-header {
+.facts .title {
     font-size: 22px;
 }
 
@@ -140,7 +140,7 @@ ol li {
     max-width: 300px;
 }
 
-.author {
+.second-section .title {
     margin-left: 400px;
 }
 
