@@ -1,13 +1,15 @@
+body {
+    margin: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+}
+
 .header, .footer {
     background-color: #1F2937;
 }
 
 .second-section {
     background-color: #E5E7EB;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
     padding: 100px 0 75px 0;
 }
 
@@ -15,9 +17,9 @@
     background-color: #3882F6;
     display: flex;
     justify-content: space-between;
-    align-items: center;
     margin: 75px 200px;
     padding: 30px 80px;
+    text-align: start;
 }
 
 button {
@@ -44,12 +46,14 @@ button {
     color: #F9FAF8;
 }
 
-a, .header .para {
+a,
+.header .para {
     color: #E5E7EB;
+    font-size: 18px;
 }
 
-.first-section, .first-section .para,
-.second-section {
+.first-section, .second-section,
+.first-section .para {
     color: #1F2937;
 }
 
@@ -65,10 +69,6 @@ a, .header .para {
     font-size: 48px;
 }
 
-a, .header .para {
-    font-size: 18px;
-}
-
 .first-section .title,
 .quote {
     font-size: 36px;
@@ -82,10 +82,6 @@ a, .header .para {
     font-weight: 100;
     font-style: italic;
     color: #3e4d61;
-}
-
-html {
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 a {
@@ -104,10 +100,6 @@ button, .third-section {
     border-radius: 5px;
 }
 
-body {
-    margin: 0;
-}
-
 .top-header {
     display: flex;
     justify-content: space-between;
@@ -120,20 +112,11 @@ body {
     padding: 100px 200px;
 }
 
-.section-header {
-    display: flex;
-    justify-content: center;
-    align-content: center;
-    margin: 32px;
-}
-
 ol {
     display: flex;
     margin: 0 200px 100px 200px;
     padding: 0;
     gap: 52px;
-    text-align: center;
-    justify-content: center;
 }
 
 ol li {
@@ -145,8 +128,5 @@ ol li {
 }
 
 .footer {
-    display: flex;
-    justify-content: center;
-    align-items: center;
     padding: 30px;
 }
