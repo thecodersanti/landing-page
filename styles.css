@@ -17,6 +17,7 @@ body {
     background-color: #3882F6;
     display: flex;
     justify-content: space-between;
+    align-items: center;
     margin: 75px 200px;
     padding: 30px 80px;
     text-align: start;
@@ -110,6 +111,7 @@ button, .third-section {
 .bottom-header {
     display: flex;
     padding: 100px 200px;
+    align-items: center;
 }
 
 ol {
