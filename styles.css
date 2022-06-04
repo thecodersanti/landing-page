@@ -10,7 +10,7 @@ body {
 
 .second-section {
     background-color: #E5E7EB;
-    padding: 100px 0 75px 0;
+    padding: 100px 0;
 }
 
 .third-section {
@@ -114,9 +114,9 @@ button, .third-section {
 
 ol {
     display: flex;
-    margin: 0 200px 100px 200px;
+    margin: 0 50px 75px 50px;
     padding: 0;
-    gap: 52px;
+    gap: 25px;
 }
 
 ol li {
@@ -129,4 +129,12 @@ ol li {
 
 .footer {
     padding: 30px;
+}
+
+.first-section .title {
+    margin: 25px;
+}
+
+.para {
+    margin: 5px 0;
 }
